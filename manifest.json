@@ -8,7 +8,7 @@
     {
       "matches": ["http://www.facebook.com/*", "https://www.facebook.com/*"],
       "css": [
-      	"css/main.css",
+      	"main.css"
       ]
     }
   ]
