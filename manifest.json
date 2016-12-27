@@ -1,0 +1,15 @@
+{
+  "manifest_version": 2,
+
+  "name": "shortcut remover",
+  "description": "removes the shortcut section of the left sidebar",
+  "version": "1.0",
+  "content_scripts": [
+    {
+      "matches": ["http://www.facebook.com/*", "https://www.facebook.com/*"],
+      "css": [
+      	"css/main.css",
+      ]
+    }
+  ]
+}
